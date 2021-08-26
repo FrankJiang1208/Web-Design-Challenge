@@ -4,11 +4,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Max Temperature</title>
+    <title>Temperature</title>
   </head>
   <body id='b_back'>
     <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
@@ -38,6 +39,46 @@
               </div>
            </form>
       </nav>
+      <div class="container">     
+        <div class="row">
+            <div class="col-md-8" >
+                <div class='col-md-12' id='box6'>
+                    <h3 class='green'>Max Temperature</h3> </h3>
+                    <hr class='pad'>
+                    <div>
+                        <img class="img-thumbnail" src="Resources/assets/images/Fig2.png " width="100%" alt="temperature" style="float:left; border:none; margin-top: -25px;">
+                    </div>
+                    <p >As expected, the weather becomes significantly warmer as one approaches the equator (Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>       
+                </div>
+                
+            </div>
+            
+            <!--Make necessary visualization adjustments-->
+            <div class="col-md-4">
+                <div class='col-md-12' id='box7'>
+                    <h3 class='green'>Visualizations</h3>
+                    <hr class='pad'>
+                    <div class="row">
+                        <div class="col-3 col-md-6">
+                            <a href="temp.html"><img src="Resources/assets/images/Fig1.png" width="100%"  alt="temperature">
+                            </a> 
+                        </div>
+                        <div class="col-3 col-md-6">
+                            <a href="hum.html"><img src="Resources/assets/images/Fig2.png" width="100%" alt="humidity"></a>
+                        </div>
+                   
+                        <div class="col-3 col-md-6">
+                            <a href="cloud.html"><img src="Resources/assets/images/Fig3.png" width="100%"  alt="cloudiness"></a>
+                        </div>
+
+                        <div class="col-3 col-md-6">
+                            <a href="wind.html"><img src="Resources/assets/images/Fig4.png"width="100%"  alt="wind speed"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
