@@ -37,13 +37,12 @@
     width: 110%;   
 }
 .img-thumbnail{
-    padding:10px;
+    padding-right:30px;
     border: none;
 }
-.pic{
-    width: 80%;
-    margin: 15px;
-    padding: 15px;
+#pic{
+    padding-right:30px;
+    border: none;
 }
 .para{
     margin-left: 15px;
