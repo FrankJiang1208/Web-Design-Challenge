@@ -14,7 +14,7 @@
 
 #box2{
     position: relative;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: 430px;
     background-color: white;
     height: 100%;
@@ -23,7 +23,7 @@
 }
 #box3{
     background-color: white;
-    margin-top: 40px;
+    margin-top: 20px;
     height: 80%;
     width: 110%;   
 }
@@ -35,12 +35,12 @@
 }
 #box5{
     background-color: white;
-    margin-top: 40px;
+    margin-top: 20px;
 
 }
 #box6{
     position: relative;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: 430px;
     background-color: white;
     height: 100%;
@@ -49,7 +49,7 @@
 }
 #box7{
     background-color: white;
-    margin-top: 40px;
+    margin-top: 20px;
     height: 60%;
     width: 110%;   
 }
@@ -67,14 +67,22 @@
 .pos-f-t{
     visibility:hidden;
 }
-.footer{
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60px;
-    line-height: 60px;
-}
-@media (max-width: 600px) {
+    height: 2.5rem;            /* Footer height */
+  }
+@media (max-width: 1000px) {
       .navbar-expand-lg{
           visibility: hidden;
           display:none;
@@ -86,4 +94,17 @@
     button{
         margin-top: 800px;
     }
+    #b_back{
+        background-color: white;
+    }
+    #box7{
+        margin-top: 50px;
+    }
+    #box5{
+        margin-top: 50px;
+    }
+    .pad{
+        padding-bottom: 5px;
+    }
 }
+
