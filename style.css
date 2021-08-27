@@ -14,7 +14,7 @@
 
 #box2{
     position: relative;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-right: 430px;
     background-color: white;
     height: 100%;
@@ -23,24 +23,24 @@
 }
 #box3{
     background-color: white;
-    margin-top: 60px;
+    margin-top: 40px;
     height: 80%;
     width: 110%;   
 }
 #box4{
     background-color: white;
-    margin-top: 60px;
+    margin-top: 10px;
     height: 100%;
     width: 110%;
 }
 #box5{
     background-color: white;
-    margin-top: 60px;
+    margin-top: 40px;
 
 }
 #box6{
     position: relative;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-right: 430px;
     background-color: white;
     height: 100%;
@@ -49,7 +49,7 @@
 }
 #box7{
     background-color: white;
-    margin-top: 60px;
+    margin-top: 40px;
     height: 60%;
     width: 110%;   
 }
@@ -66,6 +66,13 @@
 }
 .pos-f-t{
     visibility:hidden;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
 }
 @media (max-width: 600px) {
       .navbar-expand-lg{
