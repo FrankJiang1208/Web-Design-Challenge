@@ -64,3 +64,19 @@
 .para{
     margin-left: 15px;
 }
+.pos-f-t{
+    visibility:hidden;
+}
+@media (max-width: 600px) {
+      .navbar-expand-lg{
+          visibility: hidden;
+          display:none;
+      }
+      .pos-f-t{
+        visibility:visible;
+        margin-top: -41px;
+    }
+    button{
+        margin-top: 800px;
+    }
+}
